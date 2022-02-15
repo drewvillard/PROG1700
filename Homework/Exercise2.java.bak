@@ -1,0 +1,35 @@
+public class Exercise2 {
+	 public static void main(String []args) {
+		 String value = ("Hello");
+		 System.out.println(value+" Instructor This Is");
+		 String Assign = ("Assignment #");
+		 num01(Assign);
+		 System.out.println("drew v. w0468787");		 
+		
+	 }
+	 public static int num01(String assign){
+		 int i = 5;
+		 int r = 4;
+		 int result= multiply(i,r);
+		 if (assign.equals("Assignment #")){
+			 if(result==1)
+			 {System.out.println(assign+result);}
+		 
+		 }
+		 
+		 return result;
+		 
+	 }
+	 public static int multiply (int i, int r){
+		 int x=i*r;
+		 
+		 for(x=i*r; x > 1 ; x--){
+			if(x==1){break;}
+			System.out.println("	"+x);
+			
+			
+		 };
+		 
+		 return x;
+	 }
+}
